@@ -1,5 +1,5 @@
 const MenusModel = require("../models/menu")
-const responseBuilder = require('../utils/common');
+const { responseBuilder } = require('../utils/common');
 
 const getAllMenu = async (req, res) => {
   try {
