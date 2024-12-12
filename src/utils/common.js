@@ -9,13 +9,13 @@ function responseBuilder(res, is_success, status_code, data = null, pagination =
     });
 }
 
-function getErrorMessage(e) {
-    const errorMessage = e.message || e[0]?.message || e
-    console.log("errorMessage: ", errorMessage)
-    return errorMessage
-}
+// function getErrorMessage(e) {
+//     const errorMessage = e.message || e[0]?.message || e
+//     console.log("errorMessage: ", errorMessage)
+//     return errorMessage
+// }
 
-module.exports = {
-    responseBuilder,
-    getErrorMessage
-};
+// module.exports = {
+//     responseBuilder,
+//     getErrorMessage
+// };
