@@ -15,7 +15,7 @@ function responseBuilder(res, is_success, status_code, data = null, pagination =
 //     return errorMessage
 // }
 
-// module.exports = {
-//     responseBuilder,
-//     getErrorMessage
-// };
+module.exports = {
+    responseBuilder,
+    // getErrorMessage
+};

@@ -1,5 +1,5 @@
 const CategoryModel = require("../models/category")
-const responseBuilder = require('../utils/common');
+const { responseBuilder } = require('../utils/common');
 
 const getAllCategory = async (req, res) => {
   try {
