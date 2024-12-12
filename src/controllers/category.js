@@ -10,7 +10,7 @@ const getAllCategory = async (req, res) => {
     }
     responseBuilder(res, true, 200, data, pagination)
   } catch (error) {
-    responseBuilder(res, false, 500, "Server Error : " + error)
+    responseBuilder(res, false, 500, { message: "Server Error", error: error.message });
   }
 }
 
